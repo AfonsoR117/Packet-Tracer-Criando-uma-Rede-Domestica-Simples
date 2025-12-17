@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <!-- Tema cor -->
+    <div class="btn">
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+   <!-- Login -->
+    <form class="form">
+        <h3>Login</h3>
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" onclick="logar(); return false">
+    </form>
+    <!-- Social Midia -->
+    <div class="card">
+        <span>Social</span>
+        <a class="social-link" href="https://www.instagram.com/afonso_r7/" target="_blank"> 
+          <img src="instagram.ico" width="30px" alt="Instagram">
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/afonsor117" target="_blank">
+          <img src="linkedin.png" alt="linkedin">
+        </a>
+        <a class="social-link" href="https://github.com/AfonsoR117" target="_blank">
+          <img src="github.png" alt="GitHub">
+        </a>
+      </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js " crossorigin="anonymous"></script>
+</body>
+</html>
